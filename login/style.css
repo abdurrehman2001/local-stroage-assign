@@ -75,6 +75,7 @@ button{
   text-align: center;
   font-family:monospace;
   font-size: 25px;
+  cursor: pointer;
 }
 .btn{
   border-color: #232324;
