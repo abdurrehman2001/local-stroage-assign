@@ -11,13 +11,14 @@
     <div class="main-box">
         <h2>SignUp</h2>
         <p>Please fill in this form to create an account....!</p>
-        <input type="text" placeholder="Enter Your Name" /> <br> <br>
-        <input type="email" placeholder="Enter Your Email" /> <br> <br>
-        <input type="password" placeholder="Enter Your Password" /> <br> <br>
-        <input type="number" placeholder="Enter Your Phone" /> <br> <br>
-        <input type="number" placeholder="Enter Your Address" /> <br> <br>
+        <input type="text" placeholder="Enter Your Name" id="name"/> <br> <br>
+        <input type="email" placeholder="Enter Your Email" id="email"/> <br> <br>
+        <input type="password" placeholder="Enter Your Password" id="password" /> <br> <br>
+        <input type="number" placeholder="Enter Your Phone" id="number"/> <br> <br>
+        <input type="text" placeholder="Enter Your Address" id="address"/> <br> <br>
         <a href="../login/login.html">Already have an account...?</a> <br> <br>
-        <button class="btn">SignUp</button>
+        <button class="btn" onclick="signup()">SignUp</button>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
